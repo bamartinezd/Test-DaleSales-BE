@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestDaleSalesBE.Domain.Contracts\TestDaleSalesBE.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\TestDaleSalesBE.Domain.Entities\TestDaleSalesBE.Domain.Entities.csproj" />
+    <ProjectReference Include="..\TestDaleSalesBE.Services.Dto\TestDaleSalesBE.Services.Dto.csproj" />
+    <ProjectReference Include="..\TestDaleSalesBE.Data.DataAccess\TestDaleSalesBE.Data.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
